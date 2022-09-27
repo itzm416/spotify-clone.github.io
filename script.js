@@ -98,6 +98,7 @@ document.getElementById('next').addEventListener('click', ()=> {
     gif.style.opacity = 1;
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+    makeallplays();
 })
 
 document.getElementById('previous').addEventListener('click', ()=> {
@@ -113,5 +114,6 @@ document.getElementById('previous').addEventListener('click', ()=> {
     gif.style.opacity = 1;
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+    makeallplays();
 })
 
