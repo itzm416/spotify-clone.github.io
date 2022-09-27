@@ -92,7 +92,7 @@ document.getElementById('next').addEventListener('click', ()=> {
         songindex += 1;
     }
     audioElement.src = `songs/${songindex+1}.mp3`;
-    mastersongname.innerText = songs[songindex].songName;
+    // mastersongname.innerText = songs[songindex].songName;
     audioElement.currentTime = 0;
     audioElement.play();
     gif.style.opacity = 1;
@@ -108,7 +108,7 @@ document.getElementById('previous').addEventListener('click', ()=> {
         songindex -= 1;
     }
     audioElement.src = `songs/${songindex+1}.mp3`;
-    mastersongname.innerText = songs[songindex].songName;
+    // mastersongname.innerText = songs[songindex].songName;
     audioElement.currentTime = 0;
     audioElement.play();
     gif.style.opacity = 1;
