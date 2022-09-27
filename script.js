@@ -31,6 +31,7 @@ masterPlay.addEventListener('click', ()=>{
         masterPlay.classList.remove('fa-play-circle');
         masterPlay.classList.add('fa-pause-circle');
         gif.style.opacity = 1;
+        makeallplays();
     } else {
         audioElement.pause();
         masterPlay.classList.add('fa-play-circle');
